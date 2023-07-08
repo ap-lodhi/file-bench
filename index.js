@@ -2,6 +2,7 @@
 const http =require('http')
 const fs =require('fs')
 const {open} = require('fs/promises')
+const dns = require('node:dns')
 
 const port  =process.env.PORT|| 3000;
 
